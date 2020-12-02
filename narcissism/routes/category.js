@@ -1,5 +1,5 @@
 var express = require('express');
-const { request, response } = require('../../../../../Desktop/서버 실험/myapp/app');
+const { request, response } = require('../../../../../Documents/나르샤/2020_narcissism_project_server/narcissism/app');
 var router = express.Router();
 
 /* GET home page. */

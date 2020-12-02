@@ -7,6 +7,7 @@ var conn = db_config.init();
 
 router.get('/:categoryId',(request, response) => {
     id = request.params.categoryId;
+    res.json({results});
     // db 에서 데이터 조회한 뒤 json으로 반환
     response.json({categoryId:id})
 })
